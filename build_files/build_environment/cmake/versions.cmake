@@ -273,10 +273,10 @@ set(TOML_VERSION 0.10.2)
 # Build system for other packages (not used by Blender at run-time).
 set(MESON_VERSION 0.63.0)
 
-set(NUMPY_VERSION 1.23.5)
-set(NUMPY_SHORT_VERSION 1.23)
+set(NUMPY_VERSION 1.24.3)
+set(NUMPY_SHORT_VERSION 1.24)
 set(NUMPY_URI https://github.com/numpy/numpy/releases/download/v${NUMPY_VERSION}/numpy-${NUMPY_VERSION}.tar.gz)
-set(NUMPY_HASH 8b2692a511a3795f3af8af2cd7566a15)
+set(NUMPY_HASH 89e5e2e78407032290ae6acf6dcaea46)
 set(NUMPY_HASH_TYPE MD5)
 set(NUMPY_FILE numpy-${NUMPY_VERSION}.tar.gz)
 set(NUMPY_CPE "cpe:2.3:a:numpy:numpy:${NUMPY_VERSION}:*:*:*:*:*:*:*")
