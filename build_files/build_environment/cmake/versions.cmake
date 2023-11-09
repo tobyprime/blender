@@ -219,11 +219,11 @@ set(OSL_FILE OpenShadingLanguage-${OSL_VERSION}.tar.gz)
 # BZIP2, FFI, SQLITE and change the versions in this file as well. For compliance
 # reasons there can be no exceptions to this.
 
-set(PYTHON_VERSION 3.10.13)
-set(PYTHON_SHORT_VERSION 3.10)
-set(PYTHON_SHORT_VERSION_NO_DOTS 310)
+set(PYTHON_VERSION 3.11.6)
+set(PYTHON_SHORT_VERSION 3.11)
+set(PYTHON_SHORT_VERSION_NO_DOTS 311)
 set(PYTHON_URI https://www.python.org/ftp/python/${PYTHON_VERSION}/Python-${PYTHON_VERSION}.tar.xz)
-set(PYTHON_HASH 8847dc6458d1431d0ae0f55942deeb89)
+set(PYTHON_HASH d0c5a1a31efe879723e51addf56dd206)
 set(PYTHON_HASH_TYPE MD5)
 set(PYTHON_FILE Python-${PYTHON_VERSION}.tar.xz)
 set(PYTHON_CPE "cpe:2.3:a:python:python:${PYTHON_VERSION}:-:*:*:*:*:*:*")
@@ -465,13 +465,12 @@ set(BZIP2_HOMEPAGE https://sourceware.org/bzip2/)
 # NOTE: This will *HAVE* to match the version python ships on windows which
 # is hardcoded in pythons PCbuild/get_externals.bat. For compliance reasons there
 # can be no exceptions to this.
-set(FFI_VERSION 3.3)
-set(FFI_URI https://sourceware.org/pub/libffi/libffi-${FFI_VERSION}.tar.gz)
-set(FFI_HASH 72fba7922703ddfa7a028d513ac15a85c8d54c8d67f55fa5a4802885dc652056)
+set(FFI_VERSION 3.4.4)
+set(FFI_URI https://github.com/libffi/libffi/releases/download/v${FFI_VERSION}/libffi-${FFI_VERSION}.tar.gz)
+set(FFI_HASH d66c56ad259a82cf2a9dfc408b32bf5da52371500b84745f7fb8b645712df676)
 set(FFI_HASH_TYPE SHA256)
 set(FFI_FILE libffi-${FFI_VERSION}.tar.gz)
 set(FFI_CPE "cpe:2.3:a:libffi_project:libffi:${FFI_VERSION}:*:*:*:*:*:*:*")
-set(FFI_HOMEPAGE https://sourceware.org/libffi/)
 
 set(LZMA_VERSION 5.2.5)
 set(LZMA_URI https://tukaani.org/xz/xz-${LZMA_VERSION}.tar.bz2)
@@ -492,10 +491,10 @@ set(SSL_HOMEPAGE https://www.openssl.org)
 # Note: This will *HAVE* to match the version python ships on windows which
 # is hardcoded in pythons PCbuild/get_externals.bat for compliance reasons there
 # can be no exceptions to this.
-set(SQLITE_VERSION 3.40.1)
-set(SQLLITE_LONG_VERSION 3400100)
-set(SQLITE_URI https://www.sqlite.org/2022/sqlite-autoconf-${SQLLITE_LONG_VERSION}.tar.gz)
-set(SQLITE_HASH b8c2d4bc0094f5c0ce985dc0e237dfcbaa1f6275)
+set(SQLITE_VERSION 3.42.0)
+set(SQLLITE_LONG_VERSION 3420000)
+set(SQLITE_URI https://www.sqlite.org/2023/sqlite-autoconf-${SQLLITE_LONG_VERSION}.tar.gz)
+set(SQLITE_HASH 036575929b174c1b829769255491ba2b32bda9ee)
 set(SQLITE_HASH_TYPE SHA1)
 set(SQLITE_FILE sqlite-autoconf-${SQLLITE_LONG_VERSION}.tar.gz)
 set(SQLITE_CPE "cpe:2.3:a:sqlite:sqlite:${SQLITE_VERSION}:*:*:*:*:*:*:*")
@@ -513,9 +512,9 @@ set(USD_HASH d4d92ff112bc82a1718bcd129b853a54)
 set(USD_HASH_TYPE MD5)
 set(USD_FILE usd-v${USD_VERSION}.tar.gz)
 
-set(MATERIALX_VERSION 1.38.6)
+set(MATERIALX_VERSION 1.38.8)
 set(MATERIALX_URI https://github.com/AcademySoftwareFoundation/MaterialX/archive/refs/tags/v${MATERIALX_VERSION}.tar.gz)
-set(MATERIALX_HASH d49c9fdef34b5702fc60058d3e1864f2)
+set(MATERIALX_HASH fad8f4e19305fb2ee920cbff638f3560)
 set(MATERIALX_HASH_TYPE MD5)
 set(MATERIALX_FILE materialx-v${MATERIALX_VERSION}.tar.gz)
 
